@@ -1,0 +1,238 @@
+body {
+	background-color: black;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+h1 {
+	position: relative;
+	font-family: Impact;
+	font-size: 150px;
+	text-align: center;
+	color: white;
+	top: 200px;
+	transition: .3s all;
+}
+h1:hover {
+	-webkit-transform: rotate(7deg);  /* to support Safari and Android browser */
+    -ms-transform: rotate(7deg);      /* to support IE 9 */
+    transform: rotate(7deg);
+}
+h1:active {
+	-webkit-transform: rotate(0deg);  /* to support Safari and Android browser */
+    -ms-transform: rotate(0deg);      /* to support IE 9 */
+    transform: rotate(0deg);
+}
+
+#two {
+	font-size: 0px;
+	opacity: 0;
+}
+
+
+p {
+	position: relative;
+	font-family: Arial;
+	font-size: 80px;
+	text-align: center;
+	color: gray;
+	top: 65px;
+	transition: .3s all;
+}
+p:hover {
+	-webkit-transform: rotate(7deg);  /* to support Safari and Android browser */
+    -ms-transform: rotate(7deg);      /* to support IE 9 */
+    transform: rotate(7deg);
+}
+p:active {
+    -webkit-transform: rotate(0deg);  /* to support Safari and Android browser */
+    -ms-transform: rotate(0deg);      /* to support IE 9 */
+    transform: rotate(0deg);
+}
+#twitter {
+	position: absolute;
+	text-align: center;
+	width:100%;
+	height:60px;
+	bottom:0;
+}
+@media only screen and (max-width: 1260px) {
+	p {
+	    position: relative;
+	    font-family: Arial;
+	    font-size: 63px;/*80 før*/
+	    text-align: center;
+     	color: gray;
+      	top: 107px;
+	    transition: .3s all;
+    }
+    h1 {
+	position: relative;
+	    font-family: Impact;
+	    font-size: 120px;/*150 før*/
+	    text-align: center;
+	    color: white;
+	    top: 220px;
+	    transition: .3s all;
+    }
+
+}
+@media only screen and (max-width: 1000px) {
+	p {
+	    position: relative;
+	    font-family: Arial;
+	    font-size: 53px;/*63 før*/
+	    text-align: center;
+     	color: gray;
+      	top: 150px;
+	    transition: .3s all;
+    }
+    h1 {
+	position: relative;
+	    font-family: Impact;
+	    font-size: 100px;/*120 før*/
+	    text-align: center;
+	    color: white;
+	    top: 240px;
+	    transition: .3s all;
+    }
+
+}
+@media only screen and (max-width: 840px) {
+	p {
+	    position: relative;
+	    font-family: Arial;
+	    font-size: 42px;/*63 før*/
+	    text-align: center;
+     	color: gray;
+      	top: 190px;
+	    transition: .3s all;
+    }
+    h1 {
+	position: relative;
+	    font-family: Impact;
+	    font-size: 80px;/*120 før*/
+	    text-align: center;
+	    color: white;
+	    top: 260px;
+	    transition: .3s all;
+    }
+
+}
+@media only screen and (max-width: 670px) {
+	p {
+	    position: relative;
+	    font-family: Arial;
+	    font-size: 37px;/*63 før*/
+	    text-align: center;
+     	color: gray;
+      	top: 210px;
+	    transition: .3s all;
+    }
+    h1 {
+	position: relative;
+	    font-family: Impact;
+	    font-size: 70px;/*120 før*/
+	    text-align: center;
+	    color: white;
+	    top: 270px;
+	    transition: .3s all;
+    }
+
+}
+@media only screen and (max-width: 600px) {
+	p {
+	    position: relative;
+	    font-family: Arial;
+	    font-size: 32px;/*63 før*/
+	    text-align: center;
+     	color: gray;
+      	top: 230px;
+	    transition: .3s all;
+    }
+    h1 {
+	position: relative;
+	    font-family: Impact;
+	    font-size: 60px;/*120 før*/
+	    text-align: center;
+	    color: white;
+	    top: 280px;
+	    transition: .3s all;
+    }
+
+}
+@media only screen and (max-width: 517px) {
+	p {
+	    position: relative;
+	    font-family: Arial;
+	    font-size: 34px;/*63 før*/
+	    text-align: center;
+     	color: gray;
+      	top: 60px;
+	    transition: .3s all;
+    }
+    h1 {
+	position: relative;
+	    font-family: Impact;
+	    font-size: 40px;/*120 før*/
+	    text-align: center;
+	    color: white;
+	    top: 200px;
+	    transition: .3s all;
+	    opacity: 0;
+    }
+    #two {
+	position: relative;
+	font-family: Impact;
+	font-size: 107px;
+	text-align: center;
+	color: white;
+	top: 230px;
+	transition: .3s all;
+	opacity: 100;
+    }
+    #two:hover {
+	-webkit-transform: rotate(7deg);  /* to support Safari and Android browser */
+    -ms-transform: rotate(7deg);      /* to support IE 9 */
+    transform: rotate(7deg);
+    opacity: 100;
+    }
+    #two:active {
+	-webkit-transform: rotate(0deg);  /* to support Safari and Android browser */
+    -ms-transform: rotate(0deg);      /* to support IE 9 */
+    transform: rotate(0deg);
+    opacity: 100;
+    }
+}
+@media only screen and (max-width: 493px) {
+	p {
+	    position: relative;
+	    font-family: Arial;
+	    font-size: 27px;/*63 før*/
+	    text-align: center;
+     	color: gray;
+      	top: 270px;
+	    transition: .3s all;
+	    opacity: 100;
+    }
+    h1 {
+	position: relative;
+	    font-family: Impact;
+	    font-size: 50px;/*120 før*/
+	    text-align: center;
+	    color: white;
+	    top: 310px;
+	    transition: .3s all;
+	    opacity: 100;
+    }
+    #two {
+    font-size: 0px;
+	opacity: 0;
+    }
+    #two:hover {
+    opacity: 0;
+    }
+    #two:active {
+    opacity: 0;
+    }
+}
